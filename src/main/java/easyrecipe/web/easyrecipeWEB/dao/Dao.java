@@ -14,9 +14,9 @@ import java.util.ArrayList;
 public class Dao {
     private final JdbcTemplate jdbcTemplate;
 
-    private static final String URL = "jdbc:postgresql://localhost:5432/EasyRecipe";
-    private static final String USERNAME = "postgres";
-    private static final String PASSWORD = "42248019";
+    private static final String URL = "jdbc:postgresql://ec2-54-155-110-181.eu-west-1.compute.amazonaws.com:5432/ddqrpa8c00m01f";
+    private static final String USERNAME = "jiahintwtnaiie";
+    private static final String PASSWORD = "59b7911402c6a0f69a520467439af9a07ed23f0910451b2440de20be3ea1419a";
     public static Connection connection;
 
     static {
