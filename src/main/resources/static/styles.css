@@ -123,7 +123,7 @@ div.scrollable::-webkit-scrollbar-thumb {
 .img-detailed {
     max-width: 100%;
 
-    min-width: 400px;
+    min-width: 340px;
 
     height: auto;
     width: auto;
