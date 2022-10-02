@@ -1,37 +1,37 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
 
 body {
-  margin: 0;
-  padding: 0;
-  font-family: "Open Sans", serif;
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", serif;
 }
 
 .content {
-  width: 420px;
-  margin-top: 100px;
+    width: 420px;
+    margin-top: 100px;
 }
 
 .custom-card {
-  background-color: #fff;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  box-shadow: 0px 10px 10px #e0e0e0;
-  word-break: break-word !important;
-  word-wrap: break-word !important;
-  height: 210px;
-  color:#212529 !important;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 10px 10px #e0e0e0;
+    word-break: break-word !important;
+    word-wrap: break-word !important;
+    height: 210px;
+    color:#212529 !important;
 }
 
 .product-rating {
-  font-size: 50px;
+    font-size: 50px;
 }
 
 .stars i {
-  font-size: 18px;
-  color: #28a745;
+    font-size: 18px;
+    color: #28a745;
 }
 
 .rating-text {
-  margin-top: 10px;
+    margin-top: 10px;
 }
 
 .detailed-head{
@@ -75,26 +75,26 @@ div.scrollable {
     overflow-y: hidden;
     white-space: nowrap;
     scroll-behavior: smooth;
-  }
-  
-  div.scrollable .scrollable-item {
+}
+
+div.scrollable .scrollable-item {
     display: inline-block;
     width: 8rem;
     height: 8rem;
     filter: brightness(50%);
-  }
-  
-  div.scrollable::-webkit-scrollbar {
+}
+
+div.scrollable::-webkit-scrollbar {
     height: 5px;
-  }
-  
-  /* Handle */
-  div.scrollable::-webkit-scrollbar-thumb {
+}
+
+/* Handle */
+div.scrollable::-webkit-scrollbar-thumb {
     background: red;
     border-radius: 5px;
-  }
-  
-  .text-image {
+}
+
+.text-image {
     position: absolute !important;
     display: inline-block;
     top: 42%;
@@ -105,31 +105,33 @@ div.scrollable {
     white-space: normal;
     vertical-align: middle;
     height: auto;
-  }
-  
-  .round-img:hover{
-      opacity: 0.5;
-  }
-  
-  
-  .my-feed-main{
-      text-align: center;
-  }
-  
-  .my-feed-main h1,h2{
-      margin: 30px 10px;
-  }
-  
-  .img-detailed {
-      max-width: 100%;
+}
 
-      height: auto;
-      width: auto;
-      background-size: cover;
-      border-radius: 10px;
-  }
+.round-img:hover{
+    opacity: 0.5;
+}
 
-  .custom-tab{
+
+.my-feed-main{
+    text-align: center;
+}
+
+.my-feed-main h1,h2{
+    margin: 30px 10px;
+}
+
+.img-detailed {
+    max-width: 100%;
+
+    min-width: 400px;
+
+    height: auto;
+    width: auto;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.custom-tab{
     color: #4a4a4a !important;
     text-transform: uppercase !important;
 }
