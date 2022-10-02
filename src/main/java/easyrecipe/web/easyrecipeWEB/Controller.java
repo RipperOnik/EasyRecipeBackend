@@ -17,13 +17,13 @@ import java.sql.SQLException;
 @RestController
 public class Controller {
 
-    private final Dao dao;
-
-    @Autowired
-    public Controller(Dao dao) {
-        this.dao = dao;
-    }
-//    public Dao dao = DaoInstance.getDAO();
+//    private final Dao dao;
+//
+//    @Autowired
+//    public Controller(Dao dao) {
+//        this.dao = dao;
+//    }
+    public Dao dao = DaoInstance.getDAO();
 
 
 
