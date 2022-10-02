@@ -10,7 +10,7 @@ import org.springframework.stereotype.Component;
 import java.sql.*;
 import java.util.ArrayList;
 
-//@Component
+@Component
 public class Dao {
     private final JdbcTemplate jdbcTemplate;
 
@@ -34,7 +34,7 @@ public class Dao {
     }
 
 
-//    @Autowired
+    @Autowired
     public Dao(JdbcTemplate jdbcTemplate) {
         this.jdbcTemplate = jdbcTemplate;
     }
