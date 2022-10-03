@@ -81,7 +81,7 @@ div.scrollable .scrollable-item {
   display: inline-block;
   width: 8rem;
   height: 8rem;
-  filter: brightness(50%);
+  filter: brightness(70%);
 }
 
 div.scrollable::-webkit-scrollbar {
@@ -147,9 +147,11 @@ h2 {
 
 .floating-arrow-button {
   border-radius: 50%;
-  background-color: rgb(56, 186, 173);
+  /* background-color: rgb(56, 186, 173); */
+  background-color: red;
   color: white;
   border: 0;
   width: 50px;
   height: 50px;
+  font-size: 24px;
 }
