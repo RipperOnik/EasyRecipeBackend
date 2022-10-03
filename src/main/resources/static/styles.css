@@ -18,7 +18,7 @@ body {
   word-break: break-word !important;
   word-wrap: break-word !important;
   height: 210px;
-  color:#212529 !important;
+  color: #212529 !important;
 }
 
 .product-rating {
@@ -34,141 +34,122 @@ body {
   margin-top: 10px;
 }
 
-.detailed-head{
-    margin-bottom: 40px;
-    margin-top: 40px;
+.detailed-head {
+  margin-bottom: 40px;
+  margin-top: 40px;
 }
-.author{
-    color:grey;
-    text-decoration: none;
+.author {
+  color: grey;
+  text-decoration: none;
 }
 
 .small-box {
-    padding-top: 10px;
+  padding-top: 10px;
 }
-.middle-box{
-    border-left: 1px solid;
-    border-right: 1px solid;
-}
-
-.small-box-top{
-    font-size: 40px;
+.middle-box {
+  border-left: 1px solid;
+  border-right: 1px solid;
 }
 
-.recipe-hr{
-    margin: 64px auto 56px;
-    opacity: 0.3;
-    max-width: 978px;
-    width: 100%;
-    color:grey;
+.small-box-top {
+  font-size: 40px;
 }
 
-.step{
-    font-weight:bolder !important;
+.recipe-hr {
+  margin: 64px auto 56px;
+  opacity: 0.3;
+  max-width: 978px;
+  width: 100%;
+  color: grey;
 }
-.my-li{
-    margin-top: 15px;
+
+.step {
+  font-weight: bolder !important;
+}
+.my-li {
+  margin-top: 15px;
 }
 
 div.scrollable {
-    overflow-x: auto;
-    overflow-y: hidden;
-    white-space: nowrap;
-    scroll-behavior: smooth;
-  }
-  
-  div.scrollable .scrollable-item {
-    display: inline-block;
-    width: 8rem;
-    height: 8rem;
-    filter: brightness(50%);
-  }
-  
-  div.scrollable::-webkit-scrollbar {
-    height: 5px;
-  }
-  
-  /* Handle */
-  div.scrollable::-webkit-scrollbar-thumb {
-    background: red;
-    border-radius: 5px;
-  }
-  
-  .text-image {
-    position: absolute !important;
-    display: inline-block;
-    top: 42%;
-    right: 12%;
-    left: 12%;
-    color: white;
-    text-transform: uppercase;
-    white-space: normal;
-    vertical-align: middle;
-    height: auto;
-  }
-  
-  .round-img:hover{
-      opacity: 0.5;
-  }
-  
-  
-  .my-feed-main{
-      text-align: center;
-  }
-  
-  .my-feed-main h1,h2{
-      margin: 30px 10px;
-  }
-  
-  .img-detailed {
-
-
-      max-width: 480px;
-      max-height: 480px;
-
-      height: 94vw;
-      width: 94vw;
-
-
-      background-size: cover;
-      border-radius: 10px;
-  }
-
-  .img-detailed-container{
-    width: 100%;
-    padding-top: 100%; /* 1:1 Aspect Ratio */
-    position: relative; /* If you want text inside of it */
-  }
-
-  .custom-tab{
-    color: #4a4a4a !important;
-    text-transform: uppercase !important;
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+  scroll-behavior: smooth;
 }
 
-.custom-tab:hover{
-    color:rgb(50, 191, 243) !important;
-}
-.active-custom{
-    color:rgb(50, 191, 243) !important;
-    border-bottom: 1px solid rgb(50, 191, 243);
+div.scrollable .scrollable-item {
+  display: inline-block;
+  width: 8rem;
+  height: 8rem;
+  filter: brightness(50%);
 }
 
-.floating-arrow-button{
+div.scrollable::-webkit-scrollbar {
+  height: 5px;
+}
+
+/* Handle */
+div.scrollable::-webkit-scrollbar-thumb {
+  background: red;
+  border-radius: 5px;
+}
+
+.text-image {
+  position: absolute !important;
+  display: inline-block;
+  top: 42%;
+  right: 12%;
+  left: 12%;
+  color: white;
+  text-transform: uppercase;
+  white-space: normal;
+  vertical-align: middle;
+  height: auto;
+}
+
+.round-img:hover {
+  opacity: 0.5;
+}
+
+.my-feed-main {
+  text-align: center;
+}
+
+.my-feed-main h1,
+h2 {
+  margin: 30px 10px;
+}
+
+.img-detailed {
+  max-width: 480px;
+  max-height: 480px;
+
+  height: 94vw;
+  width: 94vw;
+
+  background-size: cover;
+  border-radius: 10px;
+}
+
+
+.custom-tab {
+  color: #4a4a4a !important;
+  text-transform: uppercase !important;
+}
+
+.custom-tab:hover {
+  color: rgb(50, 191, 243) !important;
+}
+.active-custom {
+  color: rgb(50, 191, 243) !important;
+  border-bottom: 1px solid rgb(50, 191, 243) !important;
+}
+
+.floating-arrow-button {
   border-radius: 50%;
   background-color: rgb(56, 186, 173);
   color: white;
   border: 0;
   width: 50px;
   height: 50px;
-
 }
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
