@@ -1,37 +1,37 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
 
 body {
-    margin: 0;
-    padding: 0;
-    font-family: "Open Sans", serif;
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", serif;
 }
 
 .content {
-    width: 420px;
-    margin-top: 100px;
+  width: 420px;
+  margin-top: 100px;
 }
 
 .custom-card {
-    background-color: #fff;
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    box-shadow: 0px 10px 10px #e0e0e0;
-    word-break: break-word !important;
-    word-wrap: break-word !important;
-    height: 210px;
-    color:#212529 !important;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 10px 10px #e0e0e0;
+  word-break: break-word !important;
+  word-wrap: break-word !important;
+  height: 210px;
+  color:#212529 !important;
 }
 
 .product-rating {
-    font-size: 50px;
+  font-size: 50px;
 }
 
 .stars i {
-    font-size: 18px;
-    color: #28a745;
+  font-size: 18px;
+  color: #28a745;
 }
 
 .rating-text {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
 .detailed-head{
@@ -75,26 +75,26 @@ div.scrollable {
     overflow-y: hidden;
     white-space: nowrap;
     scroll-behavior: smooth;
-}
-
-div.scrollable .scrollable-item {
+  }
+  
+  div.scrollable .scrollable-item {
     display: inline-block;
     width: 8rem;
     height: 8rem;
     filter: brightness(50%);
-}
-
-div.scrollable::-webkit-scrollbar {
+  }
+  
+  div.scrollable::-webkit-scrollbar {
     height: 5px;
-}
-
-/* Handle */
-div.scrollable::-webkit-scrollbar-thumb {
+  }
+  
+  /* Handle */
+  div.scrollable::-webkit-scrollbar-thumb {
     background: red;
     border-radius: 5px;
-}
-
-.text-image {
+  }
+  
+  .text-image {
     position: absolute !important;
     display: inline-block;
     top: 42%;
@@ -105,33 +105,42 @@ div.scrollable::-webkit-scrollbar-thumb {
     white-space: normal;
     vertical-align: middle;
     height: auto;
-}
+  }
+  
+  .round-img:hover{
+      opacity: 0.5;
+  }
+  
+  
+  .my-feed-main{
+      text-align: center;
+  }
+  
+  .my-feed-main h1,h2{
+      margin: 30px 10px;
+  }
+  
+  .img-detailed {
 
-.round-img:hover{
-    opacity: 0.5;
-}
+
+      max-width: 480px;
+      max-height: 480px;
+
+      height: 94vw;
+      width: 94vw;
 
 
-.my-feed-main{
-    text-align: center;
-}
+      background-size: cover;
+      border-radius: 10px;
+  }
 
-.my-feed-main h1,h2{
-    margin: 30px 10px;
-}
+  .img-detailed-container{
+    width: 100%;
+    padding-top: 100%; /* 1:1 Aspect Ratio */
+    position: relative; /* If you want text inside of it */
+  }
 
-.img-detailed {
-    max-width: 100%;
-
-    min-width: 340px;
-
-    height: auto;
-    width: auto;
-    background-size: cover;
-    border-radius: 10px;
-}
-
-.custom-tab{
+  .custom-tab{
     color: #4a4a4a !important;
     text-transform: uppercase !important;
 }
@@ -142,6 +151,16 @@ div.scrollable::-webkit-scrollbar-thumb {
 .active-custom{
     color:rgb(50, 191, 243) !important;
     border-bottom: 1px solid rgb(50, 191, 243);
+}
+
+.floating-arrow-button{
+  border-radius: 50%;
+  background-color: rgb(56, 186, 173);
+  color: white;
+  border: 0;
+  width: 50px;
+  height: 50px;
+
 }
   
   

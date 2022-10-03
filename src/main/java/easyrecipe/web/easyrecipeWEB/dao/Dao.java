@@ -176,6 +176,56 @@ public class Dao {
         }
     }
 
+    public void deleteByCategory(String category) throws SQLException {
+        PreparedStatement preparedStatement = connection.prepareStatement("select post_id from post_category where category_id = ?");
+        preparedStatement.setString(1,category);
+        ResultSet resultSet = preparedStatement.executeQuery();
+        ArrayList<String> ids = new ArrayList<>();
+        while (resultSet.next()){
+            ids.add(resultSet.getString("post_id"));
+        }
+        jdbcTemplate.update("delete from post_category where category_id = ?", category);
+        jdbcTemplate.update("delete from category where category_name = ?", category);
+        ids.forEach(id -> {
+            ArrayList<String> steps = new ArrayList<>();
+            try {
+                PreparedStatement preparedStatement1 = connection.prepareStatement("select step_id from post_step where post_id = ?");
+                preparedStatement1.setString(1,id);
+                ResultSet resultSet1 = preparedStatement1.executeQuery();
+                while (resultSet1.next()){
+                    steps.add(resultSet1.getString("step_id"));
+                }
+            } catch (SQLException e) {
+                throw new RuntimeException(e);
+            }
+
+            ArrayList<String> ingridients = new ArrayList<>();
+            try {
+                PreparedStatement preparedStatement1 = connection.prepareStatement("select ingridient_id from post_ingridient where post_id = ?");
+                preparedStatement1.setString(1,id);
+                ResultSet resultSet1 = preparedStatement1.executeQuery();
+                while (resultSet1.next()){
+                    ingridients.add(resultSet1.getString("ingridient_id"));
+                }
+            } catch (SQLException e) {
+                throw new RuntimeException(e);
+            }
+
+            jdbcTemplate.update("delete from post_step where post_id = ?", id);
+            jdbcTemplate.update("delete from post_ingridient where post_id = ?", id);
+
+            steps.forEach(step -> {
+                jdbcTemplate.update("delete from step where step_line = ?", step);
+            });
+            ingridients.forEach(ingridient -> {
+                jdbcTemplate.update("delete from ingridient where whole_line = ?", ingridient);
+            });
+
+            jdbcTemplate.update("delete from post where id = ?", id);
+        });
+
+    }
+
 //    //tested
 //    public ArrayList<UserLikedPost> getUserLikesPosts(String login) throws SQLException {
 //        ArrayList<UserLikedPost> userLikedPosts = new ArrayList<>();
