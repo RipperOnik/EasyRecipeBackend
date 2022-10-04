@@ -24,6 +24,7 @@
 ### Backend
 - Java
 - Spring (Core, MVC, JdbcTemplate, Jdbc, Boot)
+- PostgresSQL
 
 ## Скриншоты
 <img width="1510" alt="image" src="https://user-images.githubusercontent.com/55228345/193920714-18eed99a-922a-464e-9a58-f3c134b5e0ae.png">
