@@ -18,6 +18,7 @@
 - Redux
 - Typescript
 - CSS
+- HTML
 - Bootstrap
 ### Backend
 - Java
