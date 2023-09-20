@@ -11,7 +11,7 @@ The main function of the EasyRecipe web application is to search for desired rec
 - The ability to search for recipes by name.
 
 ## Technologies Used
-### Frontend
+### Frontend (visit the frontend repository here https://github.com/RipperOnik/EasyRecipeFrontend)
 - React
 - Redux
 - Typescript
