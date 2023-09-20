@@ -24,7 +24,7 @@ The main function of the EasyRecipe web application is to search for desired rec
 - Spring (Core, MVC, JdbcTemplate, Jdbc, Boot)
 - PostgresSQL
 
-## Скриншоты
+## Screenshots
 <img width="1510" alt="image" src="https://user-images.githubusercontent.com/55228345/193920714-18eed99a-922a-464e-9a58-f3c134b5e0ae.png">
 <img width="1510" alt="image" src="https://user-images.githubusercontent.com/55228345/193920874-a3793d43-8bda-4361-8e18-b830ea4d543d.png">
 <img width="1512" alt="image" src="https://user-images.githubusercontent.com/55228345/193920936-3225212f-3655-42d3-b1c2-481de43a28ad.png">
