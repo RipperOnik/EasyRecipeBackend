@@ -1,19 +1,16 @@
 # EasyRecipe
 
-## Концепция приложения
-Основная функция веб-приложения EasyRecipe заключается в поиске желаемых рецептов. Это реализовано при помощи удобной навигации по сайту, подборке рецептов
-по кухням разных стран, по категориям еды. Каждый сможет найти рецепты по вкусу, начиная с искусных поваров, ищущих самые сложные и изысканные блюда, заканчивая людьми, 
-ищущими быстрые рецепты, занимающие 15 минут вашего времени. 
-Удобная система поиска позволяет искать рецепты по названию для экономии времени. 
-Ссылка на сайт - https://easy-recipe-app.herokuapp.com/ 
+## Application Concept
+The main function of the EasyRecipe web application is to search for desired recipes. This is achieved through convenient navigation on the website and the categorization of recipes by cuisines from different countries and food categories. Everyone can find recipes to their liking, from skilled chefs looking for the most complex and exquisite dishes to those seeking quick recipes that take 15 minutes of your time. A user-friendly search system allows searching for recipes by name to save time.
 
-## Основные функциональные возможности
-- Фильтрация по категориям рецептов 
-- Показ домашней страницы с самыми актуальными и трендовыми рецептами 
-- Показ странички с детальной информацией рецепта, включающую шаги приготовления, время приготовления, калории и ингридиенты
-- Возможность поиска рецептов по названию
 
-## Используемые технологии 
+## Key Features
+- Filtering recipes by categories.
+- Displaying the homepage with the most current and trendy recipes.
+- Displaying a detailed recipe page, including preparation steps, preparation time, calories, and ingredients.
+- The ability to search for recipes by name.
+
+## Technologies Used
 ### Frontend
 - React
 - Redux
@@ -21,6 +18,7 @@
 - CSS
 - HTML
 - Bootstrap
+  
 ### Backend
 - Java
 - Spring (Core, MVC, JdbcTemplate, Jdbc, Boot)
